@@ -41,13 +41,13 @@ Loggo is a versatile tool with a range of features that make it a powerful asset
 
 ### Usage
 
-**From Pipe:**
+#### From Pipe:
 
 ```plaintext
 tail -f <my file> | loggo stream
 ```
 
-#### Kubernetes
+#### Kubernetes:
 
 ```plaintext
 kubectl logs -f -n <namespace> <pod> | loggo stream
